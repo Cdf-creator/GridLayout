@@ -1,0 +1,15 @@
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/install/local.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/install.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/list_install_components.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/rebuild_cache.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/edit_cache.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/GridLayout-app.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/GridLayout-generate-j2swift.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/GridLayout-app-gradle.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/install/strip.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/GridLayout-app-write-scripts-list.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/GridLayout-autolink-targ.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/GridLayout.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/GridLayout-app-configure-build.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/GridLayout-app-copy.dir
+/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/GridLayout-build-spm.dir

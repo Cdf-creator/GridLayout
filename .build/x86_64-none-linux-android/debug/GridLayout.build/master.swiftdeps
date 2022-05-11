@@ -1,0 +1,8 @@
+version: "Swift version 5.4-dev (LLVM cf0195a2f45d22e, Swift a5283e77ba25aeb)"
+options: "03f4601c8f15a6ae5f70b3ca92ec5322"
+build_time: [1643806856, 333448000]
+inputs:
+  "/Volumes/Olakunle/GridLayout/Sources/GridLayout/Extensions/Pages/main.page.ext.swift": [1643806723, 0]
+  "/Volumes/Olakunle/GridLayout/Sources/GridLayout/Extensions/Proxies/GridLayout.swift": [1643806853, 0]
+  "/Volumes/Olakunle/GridLayout/Sources/GridLayout/main.page.swift": [1643226249, 0]
+  "/Volumes/Olakunle/GridLayout/Sources/GridLayout/start.swift": [1643226249, 0]

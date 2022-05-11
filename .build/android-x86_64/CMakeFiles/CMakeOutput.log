@@ -1,0 +1,293 @@
+The target system is: Android - 1 - x86_64
+The host system is: Darwin - 20.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang 
+Build flags: -fexceptions;-gcc-toolchain;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64;-target;x86_64-none-linux-android;-Qunused-arguments;--sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64;-funwind-tables;-fsigned-char;-no-canonical-prefixes;-nostdlib++;-Xclang;-mnoexecstack;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/3.19.8/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ 
+Build flags: -fexceptions;-frtti;-gcc-toolchain;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64;-target;x86_64-none-linux-android;-Qunused-arguments;--sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64;-funwind-tables;-fsigned-char;-no-canonical-prefixes;-nostdlib++;-Xclang;-mnoexecstack;;-I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include;-I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/3.19.8/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_9b324/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9b324.dir/build.make CMakeFiles/cmTC_9b324.dir/build
+Building C object CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.o
+/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang   -fexceptions -gcc-toolchain /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 -target x86_64-none-linux-android -Qunused-arguments --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -funwind-tables -fsigned-char -no-canonical-prefixes -nostdlib++ -Xclang -mnoexecstack   -fPIE   -v -o CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.o -c /Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+Target: x86_64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -dwarf-column-info -debugger-tuning=gdb -target-linker-version 305 -v -coverage-notes-file /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9 -isysroot /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -internal-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/local/include -internal-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include -internal-externc-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/include -internal-externc-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/include -fdebug-compilation-dir /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fexceptions -fdiagnostics-show-option -mnoexecstack -o CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.o -x c /Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+clang -cc1 version 9.0.9 based upon LLVM 9.0.9svn default target x86_64-apple-darwin20.4.0
+ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/local/include"
+ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/include"
+ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include
+End of search list.
+Linking C executable cmTC_9b324
+/Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b324.dir/link.txt --verbose=1
+/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -fexceptions -gcc-toolchain /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 -target x86_64-none-linux-android -Qunused-arguments --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -funwind-tables -fsigned-char -no-canonical-prefixes -nostdlib++ -Xclang -mnoexecstack    -v CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.o -o cmTC_9b324 
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+Target: x86_64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_9b324 /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include]
+  end of search list found
+  collapse include dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include]
+  implicit include dirs: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):make cmTC_9b324/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9b324.dir/build.make CMakeFiles/cmTC_9b324.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang   -fexceptions -gcc-toolchain /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 -target x86_64-none-linux-android -Qunused-arguments --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -funwind-tables -fsigned-char -no-canonical-prefixes -nostdlib++ -Xclang -mnoexecstack   -fPIE   -v -o CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.o -c /Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)]
+  ignore line: [Target: x86_64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -dwarf-column-info -debugger-tuning=gdb -target-linker-version 305 -v -coverage-notes-file /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9 -isysroot /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -internal-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/local/include -internal-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include -internal-externc-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/include -internal-externc-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/include -fdebug-compilation-dir /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fexceptions -fdiagnostics-show-option -mnoexecstack -o CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.o -x c /Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 9.0.9 based upon LLVM 9.0.9svn default target x86_64-apple-darwin20.4.0]
+  ignore line: [ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/include"]
+  ignore line: [ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_9b324]
+  ignore line: [/Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b324.dir/link.txt --verbose=1]
+  ignore line: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -fexceptions -gcc-toolchain /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 -target x86_64-none-linux-android -Qunused-arguments --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -funwind-tables -fsigned-char -no-canonical-prefixes -nostdlib++ -Xclang -mnoexecstack    -v CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.o -o cmTC_9b324 ]
+  ignore line: [Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)]
+  ignore line: [Target: x86_64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_9b324 /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o]
+    arg [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9b324] ==> ignore
+    arg [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64]
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64]
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64]
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib]
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib]
+    arg [CMakeFiles/cmTC_9b324.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o] ==> ignore
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64]
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/x86_64-linux-android/lib64]
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib64]
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/x86_64-linux-android/lib]
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/x86_64-linux-android/lib64;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib64;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/x86_64-linux-android/lib;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_39e41/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_39e41.dir/build.make CMakeFiles/cmTC_39e41.dir/build
+Building CXX object CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.o
+/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++   -fexceptions -frtti -gcc-toolchain /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 -target x86_64-none-linux-android -Qunused-arguments --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -funwind-tables -fsigned-char -no-canonical-prefixes -nostdlib++ -Xclang -mnoexecstack  -I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include -I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include  -fPIE   -v -o CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.o -c /Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+Target: x86_64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple x86_64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -dwarf-column-info -debugger-tuning=gdb -target-linker-version 305 -v -coverage-notes-file /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9 -I /Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include -I /Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include -isysroot /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -internal-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/local/include -internal-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include -internal-externc-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/include -internal-externc-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/include -fdeprecated-macro -fdebug-compilation-dir /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -mnoexecstack -o CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 9.0.9 based upon LLVM 9.0.9svn default target x86_64-apple-darwin20.4.0
+ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/local/include"
+ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/include"
+ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include
+ /Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include
+ /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include
+End of search list.
+Linking CXX executable cmTC_39e41
+/Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39e41.dir/link.txt --verbose=1
+/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -fexceptions -frtti -gcc-toolchain /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 -target x86_64-none-linux-android -Qunused-arguments --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -funwind-tables -fsigned-char -no-canonical-prefixes -nostdlib++ -Xclang -mnoexecstack  -I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include -I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include   -v CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_39e41 
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+Target: x86_64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_39e41 /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -ldl -lc -lgcc -ldl /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include]
+    add: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include]
+    add: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include]
+  end of search list found
+  collapse include dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include]
+  collapse include dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include]
+  collapse include dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include]
+  implicit include dirs: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):make cmTC_39e41/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_39e41.dir/build.make CMakeFiles/cmTC_39e41.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++   -fexceptions -frtti -gcc-toolchain /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 -target x86_64-none-linux-android -Qunused-arguments --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -funwind-tables -fsigned-char -no-canonical-prefixes -nostdlib++ -Xclang -mnoexecstack  -I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include -I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include  -fPIE   -v -o CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.o -c /Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)]
+  ignore line: [Target: x86_64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple x86_64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -dwarf-column-info -debugger-tuning=gdb -target-linker-version 305 -v -coverage-notes-file /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9 -I /Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include -I /Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include -isysroot /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -internal-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/local/include -internal-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include -internal-externc-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/include -internal-externc-isystem /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/include -fdeprecated-macro -fdebug-compilation-dir /Volumes/Olakunle/GridLayout/.build/android-x86_64/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -mnoexecstack -o CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 9.0.9 based upon LLVM 9.0.9svn default target x86_64-apple-darwin20.4.0]
+  ignore line: [ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/include"]
+  ignore line: [ignoring nonexistent directory "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include]
+  ignore line: [ /Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include]
+  ignore line: [ /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_39e41]
+  ignore line: [/Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/thirdparty/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39e41.dir/link.txt --verbose=1]
+  ignore line: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -fexceptions -frtti -gcc-toolchain /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 -target x86_64-none-linux-android -Qunused-arguments --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -funwind-tables -fsigned-char -no-canonical-prefixes -nostdlib++ -Xclang -mnoexecstack  -I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++/include -I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/llvm-libc++abi/include   -v CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_39e41 ]
+  ignore line: [Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)]
+  ignore line: [Target: x86_64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64 -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_39e41 /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -ldl -lc -lgcc -ldl /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o]
+    arg [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_39e41] ==> ignore
+    arg [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64]
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64]
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64]
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib]
+    arg [-L/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib] ==> dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib]
+    arg [CMakeFiles/cmTC_39e41.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o] ==> ignore
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64]
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/x86_64-linux-android/lib64]
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib/../lib64] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib64]
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/x86_64-linux-android/lib]
+  collapse library dir [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib] ==> [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib]
+  implicit libs: [m;gcc;dl;c;gcc;dl]
+  implicit dirs: [/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/x86_64;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/x86_64-linux-android/lib64;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib64;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/x86_64-linux-android/lib;/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/lib]
+  implicit fwks: []
+
+

@@ -1,0 +1,15 @@
+{
+  "extra-cc-flags" : [
+    
+  ],
+  "target" : "x86_64-none-linux-android",
+  "sdk" : "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64",
+  "version" : 1,
+  "extra-swiftc-flags" : [
+     "-I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/include",  "-I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sysroot/usr/include",  "-I/Users/olanrewajuolakunle/Documents/android-ndk-r21e/sysroot/usr/include/x86_64-linux-android",  "-I/Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/cmake/modules/../../lib/android-x86_64/include",  "-tools-directory",  "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/darwin-x86_64/bin",  "-sdk",  "/Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64",  "-I",  "/Volumes/Olakunle/GridLayout/.build/../lib/android/include",  "-L/Volumes/Olakunle/GridLayout/.build/../lib/android/x86_64",  "-Xlinker",  "--build-id=sha1"
+  ],
+  "extra-cpp-flags" : [
+    
+  ],
+  "toolchain-bin-dir" : "/Volumes/App/Scade.app/Contents/Plugins/ScadeSDK.plugin/Contents/Resources/Libraries/scade-swift-android/bin"
+}

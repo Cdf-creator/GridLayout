@@ -1,0 +1,39 @@
+libGridLayout.so
+GridLayout.java
+main.page
+main.page.svg
+Assets/Border Collie.jpeg
+Assets/Bulldog.jpeg
+Assets/German Shepherd.jpeg
+Assets/Golden Retriever.jpeg
+Assets/Huskey.jpeg
+Assets/Jack Russell Terrier.jpeg
+Assets/Pug.jpeg
+Assets/Rottweiler.jpeg
+log.conf
+templates/AlphabeticalList.xmi
+templates/Button.xmi
+templates/Checkbox.xmi
+templates/Container.xmi
+templates/CustomWidget.xmi
+templates/DataPicker.xmi
+templates/DatePicker.xmi
+templates/GridView.xmi
+templates/Image.xmi
+templates/Label.xmi
+templates/List.xmi
+templates/ListElement.xmi
+templates/ListView.xmi
+templates/MapWidget.xmi
+templates/NavigationBar.xmi
+templates/Page.xmi
+templates/RowView.xmi
+templates/Sidebar.xmi
+templates/Slider.xmi
+templates/SliderLine.xmi
+templates/TabbedView.xmi
+templates/Textbox.xmi
+templates/ToolBar.xmi
+templates/ToolBarItem.xmi
+templates/VideoCaptureView.xmi
+templates/WebView.xmi

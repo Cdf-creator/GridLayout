@@ -1,0 +1,4 @@
+set solib-search-path /Volumes/Olakunle/GridLayout/.build/android-x86_64/GridLayout-app-android/obj/local/x86_64
+source /Users/olanrewajuolakunle/Documents/android-ndk-r21e/prebuilt/common/gdb/common.setup
+directory /Users/olanrewajuolakunle/Documents/android-ndk-r21e/platforms/android-21/arch-x86_64/usr/include /Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/gnu-libstdc++/4.9/include /Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include /Users/olanrewajuolakunle/Documents/android-ndk-r21e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+
