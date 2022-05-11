@@ -1,1 +1,0 @@
--keep class com.scade.phoenix.PhoenixApplication { <init>(); }
